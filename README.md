@@ -25,13 +25,13 @@ _In this project we are dislaying how to test our code, and push code that run e
 * _Copy/clone repo on your device_
 * _Have a prompt and editor to apply changes_
 * _Installation of Node.JS applied for language_
-* _I would recommend also setting up work envirnoment by running;
+* _I would recommend also setting up work envirnoment by running;_
 ```
-* npm init -y
-* npm install
-* npm run build
+npm init -y
+npm install
+npm run build
 ``` 
-* _From there you can then apply code in *supercalculator.test.js* then perform test by running;
+* _From there you can then apply code in *supercalculator.test.js* then perform test by running;_
 ```
 npm run test
 ```
