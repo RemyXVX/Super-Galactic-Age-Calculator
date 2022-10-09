@@ -37,7 +37,7 @@ npm run test
 ```
 
 ## Known Bugs
-* _Emptiness_
+* _Having issues on running my test. Will be looking into it._
 
 ## License
 * _MIT_
