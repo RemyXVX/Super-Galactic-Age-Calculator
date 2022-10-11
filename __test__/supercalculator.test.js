@@ -1,11 +1,10 @@
-import SuperCalculator from '../src/supercalculator';
+import SuperCalculator from '../src/supercalculator.js';
 
-describe('SuperCalculator'), () => {
+describe('SuperCalculator', () => {
+
   test('should calculate a person age on earth', () => {
     const earthAge = new SuperCalculator(30);
-    earthAge.age(30)
-    expect(earthAge.age(30)).toBe(30);
+    expect(earthAge.age).toBe(30);
 
   });
-//how to add a button?
-};
+});
