@@ -1,11 +1,14 @@
 import SuperCalculator from '../src/supercalculator.js';
 
 describe('SuperCalculator', () => {
+  let calulate;
+  beforeEach(()=> {
+    calulate = new SuperCalculator(30)
+  })
 
-  test('should calculate a person age on earth', () => {
-    
-    const earthAge = new SuperCalculator(30);
-    expect(earthAge.age).toBe(30);
 
-  });
+  test("should calculate life on earth", ()=> {
+    expect(calulate.age).toBe(30);
+  })
+  
 });
