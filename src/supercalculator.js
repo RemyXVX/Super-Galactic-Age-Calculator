@@ -29,12 +29,16 @@ export default class SuperCalculator {
 
   expectedLife(planet) {
     let mercuryYears;
+    let venusYears;
     switch(planet) {
       case "mercury":
         mercuryYears = parseFloat((this.expYears/0.24).toFixed(1));
         return mercuryYears;
+      case "venus":
+        venusYears = parseFloat((this.expYears/0.62).toFixed(1));
+        return venusYears;
     }
 
-  }
+  };
 
 }
