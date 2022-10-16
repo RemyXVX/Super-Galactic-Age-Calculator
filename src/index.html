@@ -8,11 +8,44 @@
 </head>
 <body>
   <div class="container">
-    <h1>Come calculate your life</h1>
-    <div>
-      <form>
-        
-      </form>
+    <div class="first">
+      <h1>Come calculate your life</h1>
+      <div>
+        <form id="aged">
+          <div class="one">
+            <label for="age">Enter age:</label>
+            <br>
+            <input id="age" type="number">
+          </div>
+          <div class="two">
+            <p>Select planet:</p>
+            <select class="planetOpt" id="planetOpt">
+              <option class="option" id="optionPlanet" value="earth">Earth</option>
+              <option class="option" id="optionPlanet" value="mercury">Mecury</option>
+              <option class="option" id="optionPlanet" value="venus">Venus</option>
+              <option class="option" id="optionPlanet" value="mars">Mars</option>
+              <option class="option" id="optionPlanet" value="jupiter">Jupiter</option>
+            </select>
+            <br>
+            <button type="submit" id="submitBtn" class="btn btn-secondary btn-lg">let's gooo!</button>
+          </div>
+        </form>
+      </div>
+      <div>
+        <h2>Results:</h2>
+        <ol>For planet:
+          <br>
+          <span id="planetChoice"> </span>
+        </ol>
+        <ol>For age on planet:
+          <br>
+          <span id="yearsOld"> </span>
+        </ol>
+        <ol>For years left(negative) or beyond(positive):
+          <br>
+          <span id="deathOrBeyond"> </span>
+        </ol>
+      </div>
     </div>
   </div>
   
