@@ -22,22 +22,32 @@ _In this project we are dislaying how to test our code, and push code that run e
 
 ## Setup/Installation Requirements
 * _Chrome web browser for best compatiblity_
-* _Copy/clone repo on your device_
-* _Have a prompt and editor to apply changes_
+* _Have a prompt and editor to apply changes, such as VSCode_
+...[Download here](https://code.visualstudio.com/download)
 * _Installation of Node.JS applied for language_
-* _I would recommend also setting up work envirnoment by running;_
+...[Download here](https://nodejs.org/en/download/) 
+* _From there download repo for *supercalculator.test.js*_
+...[Copy here](https://github.com/RemyXVX/Super-Galactic-Age-Calculator)
+...copy by running;
+```
+git copy https://github.com/RemyXVX/Super-Galactic-Age-Calculator
+````
+* _I would recommend also setting up work envirnoment after copy by;_
 ```
 npm init -y
+```
+**then;**
+```
 npm install
+```
+**afterwards;**
+```
 npm run build
-``` 
-* _From there you can then apply code in *supercalculator.test.js* then perform test by running;_
 ```
-npm run test
-```
+* _After the setup, you can then run any test and make edits_
 
 ## Known Bugs
-* _Having issues on running my test. Will be looking into it._
+* _The issue of making BL that would individual reflect the years after expected years of life_
 
 ## License
 * _MIT_
