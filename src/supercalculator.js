@@ -30,7 +30,8 @@ export default class SuperCalculator {
   expectedLife(planet) {
     let mercuryYears;
     let venusYears;
-    let marsYears
+    let marsYears;
+    let jupiterYears;
     switch(planet) {
       case "mercury":
         mercuryYears = parseFloat((this.expYears/0.24).toFixed(1));
@@ -41,6 +42,9 @@ export default class SuperCalculator {
       case "mars":
         marsYears = parseFloat((this.expYears/1.88).toFixed(1));
         return marsYears;
+      case "jupiter":
+        jupiterYears = parseFloat((this.expYears/11.86).toFixed(1));
+        return jupiterYears;
     }
 
   };

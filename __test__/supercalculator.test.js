@@ -44,4 +44,8 @@ describe('SuperCalculator', () => {
     expect(calculate.expectedLife("mars")).toBe(41.9);
   })
 
+  test("should be able to return expected life years on jupiter", ()=> {
+    expect(calculate.expectedLife("jupiter")).toBe(6.6);
+  })
+
 });
