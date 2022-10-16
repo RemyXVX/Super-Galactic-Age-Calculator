@@ -2,6 +2,7 @@ export default class SuperCalculator {
   constructor(age, expYears) {
     this.age = age
     this.expYears = expYears
+    this.deathComes = expYears - age
   };
 
   planetAge(planet) {
@@ -47,6 +48,15 @@ export default class SuperCalculator {
         return jupiterYears;
       default:
         return false;
+    }
+  };
+
+  tillDeath(planet) {
+    let mercuryDeath;
+    switch(planet) {
+      case "mercury":
+        mercuryDeath = parseFloat((this.deathComes/0.24).toFixed(1));
+        return mercuryDeath;
     }
   };
 

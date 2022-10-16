@@ -52,4 +52,7 @@ describe('SuperCalculator', () => {
     expect(calculate.expectedLife()).toBe(false);
   })
 
+  test("should return the years left to live on mercury", ()=> {
+    expect(calculate.tillDeath("mercury")).toBe(203.3)
+  })
 });
