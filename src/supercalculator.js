@@ -45,8 +45,9 @@ export default class SuperCalculator {
       case "jupiter":
         jupiterYears = parseFloat((this.expYears/11.86).toFixed(1));
         return jupiterYears;
+      default:
+        return false;
     }
-
   };
 
 }
