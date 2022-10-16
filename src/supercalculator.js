@@ -7,6 +7,7 @@ export default class SuperCalculator {
     let mercury;
     let venus;
     let mars;
+    let jupiter;
     switch(planet) {
       case "mercury":
         mercury = parseFloat((this.age/0.24).toFixed(1));
@@ -17,6 +18,9 @@ export default class SuperCalculator {
       case "mars":
         mars = parseFloat((this.age/1.88).toFixed(1));
         return mars;
+      case "jupiter":
+        jupiter = parseFloat((this.age/11.86 ).toFixed(1));
+        return jupiter
     }
   }
 

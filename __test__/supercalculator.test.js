@@ -20,6 +20,11 @@ describe('SuperCalculator', () => {
   })
   
   test("should be able to return age on mars", ()=> {
-    expect(calculate.planetAge("mars")).toBe(16)
+    expect(calculate.planetAge("mars")).toBe(16);
   })
+
+  test("should be able to return age on jupiter", ()=> {
+    expect(calculate.planetAge("jupiter")).toBe(2.5);
+  })
+
 });
