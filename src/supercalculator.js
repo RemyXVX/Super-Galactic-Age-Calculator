@@ -69,6 +69,8 @@ export default class SuperCalculator {
       case "jupiter":
         jupiterDeath = parseFloat((this.deathComes/11.86).toFixed(1));
         return jupiterDeath;
+      default:
+        return false;
     }
   };
 

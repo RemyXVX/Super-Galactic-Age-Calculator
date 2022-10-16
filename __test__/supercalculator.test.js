@@ -68,4 +68,8 @@ describe('SuperCalculator', () => {
     expect(calculate.tillDeath("jupiter")).toBe(4.1)
   })
 
+  test("if nothing is inputted, should return false", ()=> {
+    expect(calculate.tillDeath()).toBe(false);
+  })
+
 });
