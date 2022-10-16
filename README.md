@@ -18,7 +18,7 @@
 _In this project we are dislaying how to test our code, and push code that run efficently. We will be debugging and refactoring whenever we can_
 
 ## Webpage
-* https://github.com/RemyXVX/Super-Galactic-Age-Calculator
+* https://remyxvx.github.io/Super-Galactic-Age-Calculator/src/index
 
 ## Setup/Installation Requirements
 * _Chrome web browser for best compatiblity_
