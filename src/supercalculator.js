@@ -53,10 +53,14 @@ export default class SuperCalculator {
 
   tillDeath(planet) {
     let mercuryDeath;
+    let venusDeath;
     switch(planet) {
       case "mercury":
         mercuryDeath = parseFloat((this.deathComes/0.24).toFixed(1));
         return mercuryDeath;
+      case "venus":
+        venusDeath = parseFloat((this.deathComes/0.62).toFixed(1));
+        return venusDeath;
     }
   };
 
