@@ -1,7 +1,8 @@
 export default class SuperCalculator {
-  constructor(age) {
+  constructor(age, expYears) {
     this.age = age
-  }
+    this.expYears = expYears
+  };
 
   planetAge(planet) {
     let mercury;
@@ -24,6 +25,16 @@ export default class SuperCalculator {
       default:
         return false;
     }
+  };
+
+  expectedLife(planet) {
+    let mercuryYears;
+    switch(planet) {
+      case "mercury":
+        mercuryYears = parseFloat((this.expYears/0.24).toFixed(1));
+        return mercuryYears;
+    }
+
   }
 
 }

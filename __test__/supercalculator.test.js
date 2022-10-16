@@ -3,12 +3,13 @@ import SuperCalculator from '../src/supercalculator.js';
 describe('SuperCalculator', () => {
   let calculate;
   beforeEach(()=> {
-    calculate = new SuperCalculator(30)
+    calculate = new SuperCalculator(30, 78.8)
   })
 
 
   test("should calculate life on earth", ()=> {
     expect(calculate.age).toBe(30);
+    expect(calculate.expYears).toBe(78.8);
   })
 
   test("should be able to return age on mercury", ()=> {
@@ -29,6 +30,10 @@ describe('SuperCalculator', () => {
 
   test("if nothing shows, should return false", ()=> {
     expect(calculate.planetAge()).toBe(false);
+  })
+
+  test("should be able to return expected life years on mercury", ()=> {
+    expect(calculate.expectedLife("mercury")).toBe(328.3);
   })
 
 });
