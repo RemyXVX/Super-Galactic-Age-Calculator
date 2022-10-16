@@ -21,6 +21,8 @@ export default class SuperCalculator {
       case "jupiter":
         jupiter = parseFloat((this.age/11.86 ).toFixed(1));
         return jupiter
+      default:
+        return false;
     }
   }
 

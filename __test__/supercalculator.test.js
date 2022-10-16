@@ -27,4 +27,8 @@ describe('SuperCalculator', () => {
     expect(calculate.planetAge("jupiter")).toBe(2.5);
   })
 
+  test("if nothing shows, should return false", ()=> {
+    expect(calculate.planetAge()).toBe(false);
+  })
+
 });
