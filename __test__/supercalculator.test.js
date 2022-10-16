@@ -14,5 +14,9 @@ describe('SuperCalculator', () => {
   test("should be able to return age in mercury", ()=> {
     expect(calculate.planetAge("mercury")).toBe(125);
   })
+
+  test("should be able to return age in venus", ()=> {
+    expect(calculate.planetAge("venus")).toBe(48.4);
+  })
   
 });
