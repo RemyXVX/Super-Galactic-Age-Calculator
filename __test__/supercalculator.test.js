@@ -40,4 +40,8 @@ describe('SuperCalculator', () => {
     expect(calculate.expectedLife("venus")).toBe(127.1);
   })
 
+  test("should be able to return expected life years on mars", ()=> {
+    expect(calculate.expectedLife("mars")).toBe(41.9);
+  })
+
 });
