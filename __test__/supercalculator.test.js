@@ -60,5 +60,8 @@ describe('SuperCalculator', () => {
     expect(calculate.tillDeath("venus")).toBe(78.7)
   })
 
+  test("should return the years left to live on mars", ()=> {
+    expect(calculate.tillDeath("mars")).toBe(26)
+  })
 
 });
