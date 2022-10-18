@@ -1,9 +1,9 @@
 export default class SuperCalculator {
   constructor(age, expYears) {
-    this.age = age
-    this.expYears = expYears
-    this.deathComes = age - expYears
-  };
+    this.age = age;
+    this.expYears = expYears;
+    this.deathComes = age - expYears;
+  }
 
   planetAge(planet) {
     let mercury;
@@ -11,22 +11,22 @@ export default class SuperCalculator {
     let mars;
     let jupiter;
     switch(planet) {
-      case "mercury":
-        mercury = parseFloat((this.age/0.24).toFixed(1));
-        return mercury;
-      case "venus":
-        venus = parseFloat((this.age/0.62).toFixed(1));
-        return venus;
-      case "mars":
-        mars = parseFloat((this.age/1.88).toFixed(1));
-        return mars;
-      case "jupiter":
-        jupiter = parseFloat((this.age/11.86 ).toFixed(1));
-        return jupiter
-      default:
-        return false;
+    case "mercury":
+      mercury = parseFloat((this.age/0.24).toFixed(1));
+      return mercury;
+    case "venus":
+      venus = parseFloat((this.age/0.62).toFixed(1));
+      return venus;
+    case "mars":
+      mars = parseFloat((this.age/1.88).toFixed(1));
+      return mars;
+    case "jupiter":
+      jupiter = parseFloat((this.age/11.86 ).toFixed(1));
+      return jupiter;
+    default:
+      return false;
     }
-  };
+  }
 
   expectedLife(planet) {
     let mercuryYears;
@@ -34,22 +34,22 @@ export default class SuperCalculator {
     let marsYears;
     let jupiterYears;
     switch(planet) {
-      case "mercury":
-        mercuryYears = parseFloat((this.expYears/0.24).toFixed(1));
-        return mercuryYears;
-      case "venus":
-        venusYears = parseFloat((this.expYears/0.62).toFixed(1));
-        return venusYears;
-      case "mars":
-        marsYears = parseFloat((this.expYears/1.88).toFixed(1));
-        return marsYears;
-      case "jupiter":
-        jupiterYears = parseFloat((this.expYears/11.86).toFixed(1));
-        return jupiterYears;
-      default:
-        return false;
+    case "mercury":
+      mercuryYears = parseFloat((this.expYears/0.24).toFixed(1));
+      return mercuryYears;
+    case "venus":
+      venusYears = parseFloat((this.expYears/0.62).toFixed(1));
+      return venusYears;
+    case "mars":
+      marsYears = parseFloat((this.expYears/1.88).toFixed(1));
+      return marsYears;
+    case "jupiter":
+      jupiterYears = parseFloat((this.expYears/11.86).toFixed(1));
+      return jupiterYears;
+    default:
+      return false;
     }
-  };
+  }
 
   tillDeath(planet) {
     let mercuryDeath;
@@ -57,22 +57,20 @@ export default class SuperCalculator {
     let marsDeath;
     let jupiterDeath;
     switch(planet) {
-      case "mercury":
-        mercuryDeath = Math.abs(parseFloat((this.deathComes/0.24).toFixed(1)));
-        return mercuryDeath;
-      case "venus":
-        venusDeath = Math.abs(parseFloat((this.deathComes/0.62).toFixed(1)));
-        return venusDeath;
-      case "mars":
-        marsDeath = Math.abs(parseFloat((this.deathComes/1.88).toFixed(1)));
-        return marsDeath;
-      case "jupiter":
-        jupiterDeath = Math.abs(parseFloat((this.deathComes/11.86).toFixed(1)));
-        return jupiterDeath;
-      default:
-        return false;
+    case "mercury":
+      mercuryDeath = Math.abs(parseFloat((this.deathComes/0.24).toFixed(1)));
+      return mercuryDeath;
+    case "venus":
+      venusDeath = Math.abs(parseFloat((this.deathComes/0.62).toFixed(1)));
+      return venusDeath;
+    case "mars":
+      marsDeath = Math.abs(parseFloat((this.deathComes/1.88).toFixed(1)));
+      return marsDeath;
+    case "jupiter":
+      jupiterDeath = Math.abs(parseFloat((this.deathComes/11.86).toFixed(1)));
+      return jupiterDeath;
+    default:
+      return false;
     }
-  };
-
-
+  }
 }

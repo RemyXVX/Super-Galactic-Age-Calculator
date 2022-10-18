@@ -28,5 +28,13 @@
   "dependencies": {
     "bootstrap": "^4.5.3"
   },
-  "description": ""
+  "description": "* HTML\r * CSS\r * JavaScript\r * Eslint\r * Babel\r * VSCode\r * GitBash\r * Node.JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemyXVX/Super-Galactic-Age-Calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RemyXVX/Super-Galactic-Age-Calculator/issues"
+  },
+  "homepage": "https://github.com/RemyXVX/Super-Galactic-Age-Calculator#readme"
 }
