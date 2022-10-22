@@ -40,7 +40,7 @@ _In this project we are dislaying how to test our code, and push code that run e
 ## Step by step breakdown on how to run application: ##
 <br>
 
-**copy by running;**
+**copy by running:**
 
 ```
 git clone https://github.com/RemyXVX/Super-Galactic-Age-Calculator
@@ -67,7 +67,7 @@ npm run lint
 ```
 
 ## Known Bugs
-* _The issue of making BL that would individual reflect the years after expected years of life_
+* _My UI is sadical, and the webpage makes me cry_
 
 ## License
 * _MIT_
